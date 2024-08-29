@@ -8,7 +8,7 @@
 import UIKit
 import MBProgressHUD
 
-let JY_HUD_key_window = UIWindow.yq_HUD_key_window()
+public let JY_HUD_key_window = UIWindow.yq_HUD_key_window()
 
 extension UIWindow {
     static func yq_HUD_key_window() -> UIWindow? {
@@ -20,9 +20,9 @@ extension UIWindow {
 }
 
 /// 默认HUD显示时间
-private let defaultHUDShowTime = 1.5
+public let defaultHUDShowTime = 1.5
 
-class JY_HUD_Tool {
+open class JY_HUD_Tool {
     
     static var hud: MBProgressHUD?
     
