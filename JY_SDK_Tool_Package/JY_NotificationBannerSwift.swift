@@ -9,7 +9,7 @@ import UIKit
 import NotificationBannerSwift
 
 extension JY_HUD_Tool {
-   static func yq_show_success(title: String? = nil, subTitle: String? = nil) {
+   public static func yq_show_success(title: String? = nil, subTitle: String? = nil) {
         
         if ((title?.count ?? 0) <= 0) && ((subTitle?.count ?? 0) <= 0) {
             return
@@ -25,7 +25,7 @@ extension JY_HUD_Tool {
                     shadowBlurRadius: 15)
     }
     
-    static func yq_show_danger(title: String? = nil, subTitle: String? = nil) {
+    public static func yq_show_danger(title: String? = nil, subTitle: String? = nil) {
         
         if ((title?.count ?? 0) <= 0) && ((subTitle?.count ?? 0) <= 0) {
             return
