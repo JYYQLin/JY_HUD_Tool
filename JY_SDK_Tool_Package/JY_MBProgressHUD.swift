@@ -33,12 +33,12 @@ open class JY_HUD_Tool {
         
         HUD.frame = CGRect(x: 0, y: 0, width: superView.frame.width, height: superView.frame.height)
         HUD.animationType = .zoom
-        if isMask {
-            HUD.backgroundView.color = UIColor(white: 0.0, alpha: 0.4)
+                if isMask {
+            HUD.backgroundView.color = UIColor(named: "JY_HUD_Tool_backgroundColor")
         } else {
             HUD.bezelView.style = .solidColor
             HUD.backgroundView.color = UIColor.clear
-            HUD.bezelView.backgroundColor = UIColor(white: 0.0, alpha: 0.9)
+            HUD.bezelView.backgroundColor = UIColor(named: "JY_HUD_Tool_bezelView_backgroundColor")
             HUD.contentColor = UIColor(named: "JY_HUD_Tool_contentColor")
         }
         HUD.removeFromSuperViewOnHide = true
