@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   	spec.author       = { "JYYQLin" => "No mailBox" }
   	spec.platform     = :ios, "13.0"
   	spec.source       = { :git => "https://github.com/JYYQLin/JY_SDK_Tool_Package.git", :tag => "#{spec.version}" }
-  	spec.source_files  = "JY_SDK_Tool_Package/*.{h,m,swift}"
+  	spec.source_files  = "JY_SDK_Tool_Package/**/*.{h,m,swift}"
 	spec.swift_versions = ['5.0', '5.1', '5.2']
 
 	# spec.dependency "Kingfisher",   '~> 7.12.0'
