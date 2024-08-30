@@ -10,17 +10,17 @@ Pod::Spec.new do |spec|
   	spec.source_files  = "JY_SDK_Tool_Package/*.{h,m,swift}"
 	spec.swift_versions = ['5.0', '5.1', '5.2']
 
-	spec.dependency "Kingfisher",   '~> 7.12.0'
+	# spec.dependency "Kingfisher",   '~> 7.12.0'
 
-	spec.dependency "Alamofire",   '~> 5.9.1'
+	# spec.dependency "Alamofire",   '~> 5.9.1'
 
-	spec.dependency "ActiveLabel",   '~> 1.1.0'
+	# spec.dependency "ActiveLabel",   '~> 1.1.0'
 
-	spec.dependency "KeychainAccess",   '~> 4.2.2'
+	# spec.dependency "KeychainAccess",   '~> 4.2.2'
 
-	spec.dependency "WCDB.swift",   '~> 2.1.6'
+	# spec.dependency "WCDB.swift",   '~> 2.1.6'
 
-	spec.dependency "MBProgressHUD",   '~> 1.2.0'
+	# spec.dependency "MBProgressHUD",   '~> 1.2.0'
 
-	spec.dependency "NotificationBannerSwift",   '~> 3.2.1'
+	# spec.dependency "NotificationBannerSwift",   '~> 3.2.1'
 end
