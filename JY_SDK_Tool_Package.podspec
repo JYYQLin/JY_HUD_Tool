@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
 	spec.dependency "KeychainAccess",   '~> 4.2.2'
 
-	spec.dependency "WCDB.swift",   '~> 2.1.6'
+	spec.dependency "WCDB.swift",   '~> 2.1.7'
 
 	spec.dependency "MBProgressHUD",   '~> 1.2.0'
 
