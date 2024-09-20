@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  	spec.name         = "JY_SDK_Tool_Package"
+  	spec.name         = "JY_HUD_Tool"
   	spec.version      = "1.0.0"
   	spec.summary      = "自用第三方工具封装"
   	spec.homepage     = "https://github.com/JYYQLin/JY_SDK_Tool_Package"
@@ -9,16 +9,6 @@ Pod::Spec.new do |spec|
   	spec.source       = { :git => "https://github.com/JYYQLin/JY_SDK_Tool_Package.git", :tag => "#{spec.version}" }
   	spec.source_files  = "JY_SDK_Tool_Package/*.{h,m,swift}"
 	spec.swift_versions = ['5.0', '5.1', '5.2']
-
-	spec.dependency "Kingfisher",   '~> 7.12.0'
-
-	spec.dependency "Alamofire",   '~> 5.9.1'
-
-	spec.dependency "ActiveLabel",   '~> 1.1.0'
-
-	spec.dependency "KeychainAccess",   '~> 4.2.2'
-
-	spec.dependency "WCDB.swift",   '~> 2.1.7'
 
 	spec.dependency "MBProgressHUD",   '~> 1.2.0'
 
