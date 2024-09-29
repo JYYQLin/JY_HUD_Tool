@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   	spec.source_files  = "JY_HUD_Tool/*.{h,m,swift}"
 	spec.swift_versions = ['5.0', '5.1', '5.2']
 
-	spec.dependency "MBProgressHUD",   '~> 1.2.0'
+	spec.dependency "MBProgressHUD"
 
-	spec.dependency "NotificationBannerSwift",   '~> 3.2.1'
+	spec.dependency "NotificationBannerSwift"
 end
